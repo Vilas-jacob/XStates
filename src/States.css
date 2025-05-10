@@ -1,0 +1,10 @@
+.selection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   justify-content: center;
+}
+.selection select {
+    font-size: 16px;
+    padding: 5px;
+}
