@@ -1,7 +1,5 @@
-import { useState } from 'react'
-
 import './App.css'
-import States from './states'
+import States from './States';
 
 function App() {
   
