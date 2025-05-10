@@ -51,6 +51,8 @@ async function getCities(){
         }
         const data = await response.json();
         setCities(data);
+        setCitySelected("");
+        
     } catch (error) {
         console.error('Error fetching data: '+error.message);
     }
