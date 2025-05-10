@@ -52,7 +52,7 @@ async function getCities(){
         const data = await response.json();
         setCities(data);
         setCitySelected("");
-        
+
     } catch (error) {
         console.error('Error fetching data: '+error.message);
     }
@@ -110,7 +110,7 @@ function handleCityChange(e){
         </div>
         <div>
             {citySelected?
-            (<h2>You selected {countrySelected}, {stateSelected}, {citySelected}</h2>) : (<h2></h2>)
+            (<h2>You selected {citySelected}, {stateSelected}, {countrySelected}</h2>) : (<h2></h2>)
         }
         </div>
     
